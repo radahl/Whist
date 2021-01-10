@@ -35,7 +35,7 @@ class Ui_InputNavn(object):
 
     def retranslateUi(self, InputNavn):
         _translate = QtCore.QCoreApplication.translate
-        InputNavn.setWindowTitle(_translate("InputNavn", "Dialog"))
+        InputNavn.setWindowTitle(_translate("InputNavn", "Input Navn"))
         self.label.setText(_translate("InputNavn", "Deltager Navn"))
 
 
