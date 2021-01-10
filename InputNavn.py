@@ -26,7 +26,7 @@ class Ui_InputNavn(object):
         self.lineEdit = QtWidgets.QLineEdit(InputNavn)
         self.lineEdit.setGeometry(QtCore.QRect(170, 80, 113, 20))
         self.lineEdit.setObjectName("lineEdit")
-        self.lineEdit.setText("Hej")
+#        self.lineEdit.setText("Hej")
 
         self.retranslateUi(InputNavn)
         self.buttonBox.accepted.connect(lambda: Navn(InputWin = InputNavn, InpuBox = self.lineEdit))
@@ -44,6 +44,7 @@ class Ui_InputNavn(object):
         ui = Ui_InputNavn()
         ui.setupUi(Dialog)
         Dialog.show()
+        ui.lineEdit.setFocus()
         Dialog.exec_()
         return(Dialog.Navn)
 

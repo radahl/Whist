@@ -6,5 +6,5 @@ save_non_project_files = False
 
 [main]
 version = 0.2.0
-recent_files = ['WhistMainWindow.py', 'Whist.py', 'WhistScoreCalculation.py', 'ExirDialog.py', 'InputNamesInTable.ui', '..\\anaconda3\\lib\\threading.py', 'ErrorMeas.py', 'ExirDialog.ui']
+recent_files = ['WhistMainWindow.py', 'Whist.py', 'WhistScoreCalculation.py', 'ExirDialog.py', 'ErrorMeas.py']
 
